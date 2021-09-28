@@ -1,14 +1,19 @@
 /* Theme */
 
-main {
-	background: #53524e;
-	color: #d4ad00;
+body{
+	
+	background-image: url(https://wallpapercave.com/wp/wp5264645.jpg) ;
+	background-position: center ;
+	background-repeat: no-repeat ; 
+	
+	color: #ffffff; 
+	text-shadow: 10px 5px 5px black;
 }
 
 .icons-social a {
-	color: #d4ad00;
+	color: #ffffff;
 }
 
 .icons-social a svg path{
-	fill: #d4ad00;
+	fill: #ffffff;
 }
