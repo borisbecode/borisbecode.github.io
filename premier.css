@@ -114,3 +114,33 @@ main > .tagline {
 	width: 2.65rem;
 	height: 2.65rem;
 }
+
+.bouton{
+    margin: 20px;
+}
+
+.bouton:hover{
+    
+    
+    
+}
+
+.icons-social i:hover{
+    
+   
+    transform: scale(1.5);
+}
+
+
+@keyframes anim {
+    from {background-color: rgba(255, 255, 255, 0); color: rgba(0, 0, 0, 0);	text-shadow: 10px 5px 5px rgba(0, 0, 0, 0);}
+    to {background-color: rgba(0, 0, 0, 0); color: rgb(255, 255, 255);}
+}
+
+.tagline{
+animation-name: anim; 
+animation-duration: 10s;
+animation-fill-mode: forwards;
+animation-delay: 0s;
+
+}
